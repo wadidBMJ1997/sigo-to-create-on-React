@@ -9,7 +9,7 @@ body{
 }
 header{
     height: 100vh;
-    width: 256px;
+    width: 200px;
     border-right: 1px solid #CED0D2;
 }
 
@@ -29,18 +29,19 @@ header{
 }
 .nav-user div:first-child{
     background-color: #1D3D6F;
-    height: 70px;
+    height: 55px;
 }
 .nav-user div:last-child{
     margin-inline-start: 1rem;
-    height: 50px;
+    height: 35px;
 }
 .nav-logo-img img{
-    height: 30px;
+    height: 25px;
 }
 .nav-content-img img{
     margin-top: 23px;
-    height: 40px;
+    height: 25px;
+    margin-inline-start: 1.5rem;
 }
 .flex-content{
     margin-top: 40px;
@@ -59,15 +60,15 @@ header{
 .nav-menu{
     margin-block-start: 1.5rem;
     border-top: 1px solid #9CA2A7;
-    border-bottom: 1px solid #9CA2A7;
 }
 .nav-menu li {
     list-style: none;
+    margin-block: 20px;
+    border: 1px solid red;
 }
 .nav-menu li a{
     text-decoration: none;
     color: #6C757D;
-    margin-bottom: 20px;
 }
 
 /*.nav-menu a img{
@@ -76,11 +77,9 @@ header{
     margin-inline-start: -35px;
     margin-block-start: 20px;
 }*/
-.nav-menu a p{
-    font-size: 14px;
-    margin-inline-start: 0.5rem;
-    margin-inline-start: -35px;
-    margin-block-start: 33px;
+.nav-menu a{
+    font-size: 12px;
+    margin-inline-start: -14px;
 }
 /*Find out the fix*/
 .nav-menu_list{
@@ -91,10 +90,15 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+
 .flex-nav-direction img{
-    width: 20px;
-    height: 20px;
-    margin-inline-start: -48px;
+    height: 17px;
+    margin-inline-start: -12px;
+    cursor: pointer;
+}
+.flex-nav-direction img:first-child{
+    margin-inline-start: -40px;
+    cursor:auto ;
 }
 
 /*** code main***/

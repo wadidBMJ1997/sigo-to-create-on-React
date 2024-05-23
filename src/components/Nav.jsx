@@ -4,24 +4,27 @@ const Nav =()=>{
     return(
         <>
             <header>
-                <nav class="nav-navegation">
-                    <div class="nav-user">
-                        <div class="nav-logo-img"><img src="src/assets/img/scht-logo.png" alt="SCHT"/></div>
-                        <div class="nav-content-img"><img src="src/assets/img/perfil.png" alt="user"/><div class="flex-content"><span>Andrian Quispe</span><p>Usuario</p></div></div>
+                <nav className="nav-navegation">
+                    <div className="nav-user">
+                        <div className="nav-logo-img"><img src="src/assets/img/scht-logo.png" alt="SCHT"/></div>
+                        <div className="nav-content-img"><img src="src/assets/img/perfil.png" alt="user"/><div className="flex-content"><span>Andrian Quispe</span><p>Usuario</p></div></div>
                     </div>
-                    <ul class="nav-menu">
-                        <li>
-                            <div class="flex-nav-direction">
-                                <img src="src/assets/icons/direction.png" alt="direction"/>
-                                <a href=""><p><b>Direccíon de Proyectos</b></p></a>
+                    <ul className="nav-menu">
+                        <li className="flex-nav-direction">
+                            <img src="src/assets/icons/direction.png" alt="direction"/>
+                                <a href=""><b>Direccíon de Proyectos</b></a>
                                 <img src="src/assets/icons/down-arrow.png" alt="arow"/>
-                            </div>
-                            <ul class="nav-menu_list">
+                            {/* this is the sub nav hidden */}
+                            <ul className="nav-menu_list">
                                 <li><a href="">Proyecto Inicio</a></li>
                                 <li><a href="">Administración SIC</a></li>
                             </ul>
                         </li>
-                        <li></li>
+                        <li className="flex-nav-direction">
+                            <img src="src/assets/icons/direction.png" alt="direction"/>
+                            <a href=""><b>Direccíon de Proyectos</b></a>
+                            <img src="src/assets/icons/down-arrow.png" alt="arow"/>
+                        </li>
                         <li></li>
                         <li></li>
                         <li></li>
