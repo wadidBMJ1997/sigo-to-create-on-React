@@ -1,6 +1,5 @@
-import './styles/App.css'
 import './styles/normalize.css'
-import Nav from './components/Nav'
+import Nav from './components/Nav/Nav'
 
 function App() {
   return (
@@ -10,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

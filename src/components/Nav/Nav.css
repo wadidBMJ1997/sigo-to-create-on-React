@@ -9,18 +9,12 @@ body{
 }
 header{
     height: 100vh;
-    width: 200px;
+    width: 210px;
     border-right: 1px solid #CED0D2;
+    box-shadow: 3px 4px 18px 0px rgba(206,208,210,0.49)
 }
 
 /***** code nav*****/
-/*nav{
-
-
-}
-.nav-user {
-   
-}*/
 .nav-user div{
     display: flex;
     justify-content: center;
@@ -61,46 +55,84 @@ header{
     margin-block-start: 1.5rem;
     border-top: 1px solid #9CA2A7;
 }
-.nav-menu li {
+.nav-menu .nav-info {
     list-style: none;
-    margin-block: 20px;
-    border: 1px solid red;
+    padding-block: 10px;
+    border-bottom: 1px solid #9CA2A7;
+    margin-inline-start: -50px;
 }
-.nav-menu li a{
-    text-decoration: none;
+.nav-menu b{
+    font-size: 11px;
+    margin-inline-end: 15px;
     color: #6C757D;
+    margin-block: 5px;
 }
 
-/*.nav-menu a img{
-    width: 22px;
-    height: 22px;
-    margin-inline-start: -35px;
-    margin-block-start: 20px;
-}*/
-.nav-menu a{
-    font-size: 12px;
-    margin-inline-start: -14px;
+/* drop Drowm */
+.drop-menu_list{
+    background-color:  #E5F6FA;
 }
-/*Find out the fix*/
-.nav-menu_list{
-    display: none
+.drop-menu_list li{
+    list-style: none;
+    padding-block-start: 7px;
+}
+.drop-menu_list li a{
+    font-size: 12px;
+    font-style: bold;
+    text-decoration: none;
+    color: #000;
+    margin-inline-end: 20px;
+}
+.drop-dowm_menu{
+    display: none;
+}
+.drop-menu_list li a:hover{
+    color:  #007BFF;
+    text-decoration: none;
 }
 .flex-nav-direction{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:space-between;
 }
 
 .flex-nav-direction img{
     height: 17px;
-    margin-inline-start: -12px;
     cursor: pointer;
+    margin-block-end: 15px;
 }
 .flex-nav-direction img:first-child{
-    margin-inline-start: -40px;
     cursor:auto ;
+    margin-inline-start: 1.2rem;
+}
+.flex-nav-direction img:last-child{
+    margin-inline-end: 7px;
+}
+/*changes of space*/
+.margin-move-right{
+    margin-inline-start: 10px;
 }
 
+.margin-move-left{
+    margin-inline-end: 55px !important;
+}
+.sing-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 210px;
+    background: #F8F9FA;
+    height: 50px;
+}
+.sing-up img{
+    height: 30px;
+}
+.sing-up p{
+    font-size: 11px;
+    margin-inline-end: 40px;
+    color: #00287E;
+}
 /*** code main***/
 .section-title{
     position: relative;
@@ -115,7 +147,6 @@ header{
     margin: 0;
     padding-inline-start: 2.5rem;
     padding-block: 22px;
-
 }
 .section-title span{
     font-size: 15px;
